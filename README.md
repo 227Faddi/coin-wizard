@@ -1,4 +1,4 @@
-# Coin Wizard : [Visit Here](https://coin-wizard-ppg3.onrender.com/)
+# 🪙 Coin Wizard : [Visit Here](https://coin-wizard-ppg3.onrender.com/)
 Coin Wizard is an interactive full-stack web application where users can test their prediction skills by flipping a virtual coin. Enjoy a seamless user interface and engaging animations for a delightful coin-flipping experience!
 
 ![alt tag](/client/public/assets/img/preview.gif)
