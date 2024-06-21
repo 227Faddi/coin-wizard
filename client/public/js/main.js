@@ -25,7 +25,6 @@ function flipCoin(){
         spinner.style.display = 'block';
         noChoiceAlert.style.display = 'none'
         setTimeout(() =>{
-            // to change to /random when server is online
             fetch('https://coin-wizard.onrender.com/random')
             .then(res => res.json())
             .then(data =>{
