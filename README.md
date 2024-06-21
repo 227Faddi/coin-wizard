@@ -7,8 +7,8 @@ Coin Wizard is an interactive full-stack web application where users can test th
 
 ## How It's Made:
 
-**Tech used**
-Frontend: HTML, CSS, Bootstrap, JavaScript
+**Tech used**\
+Frontend: HTML, CSS, Bootstrap, JavaScript\
 Backend: Node.js, Express
 
 ## Optimizations
