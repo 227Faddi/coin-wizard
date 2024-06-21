@@ -26,7 +26,7 @@ function flipCoin(){
         noChoiceAlert.style.display = 'none'
         setTimeout(() =>{
             // to change to /random when server is online
-            fetch('http://localhost:8000/random')
+            fetch('/random')
             .then(res => res.json())
             .then(data =>{
                 if(data.result === userChoice){
