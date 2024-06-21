@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Poetsen One", sans-serif;
+    background-image: url(/public/assets/img/bg-mobile.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-image: url(/public/assets/img/bg.svg);
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.card{
+    border: 10px solid #A67B5B;
+}
+
+.card-title{
+    font-size: 2.5rem;
+}
+
+#choicesContainer{
+    font-size: 1.5rem;
+}
+
+#result{
+    font-size: 2rem;
+}
+
+#flipBtn{
+    font-size: 1.3rem;
+    padding: 1em;
+}
+
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    color: black;
+    margin: 0 0.25em;
+}
