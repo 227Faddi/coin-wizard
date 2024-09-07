@@ -17,9 +17,6 @@ app.get('/random', (req, res)=>{
     res.json({ result : random()})
 })
 
-// app.listen(PORT, ()=>{
-//     console.log(`Server on at port ${PORT}`)
-// })
-
-// Vercel Deployment
-export default app;
+app.listen(PORT, ()=>{
+    console.log(`Server on at port ${PORT}`)
+})

@@ -24,7 +24,7 @@ async function flipCoin(){
     } else{
         spinner.classList.remove('hidden');
         noChoiceAlert.classList.add('hidden');
-        let response = await fetch('/random');
+        let response = await fetch('https://coin-wizard-two.vercel.app/random');
         let data = await response.json();
         setTimeout(() =>{
             if(data.result === userChoice){
