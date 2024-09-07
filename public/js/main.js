@@ -24,8 +24,13 @@ async function flipCoin(){
     } else{
         spinner.classList.remove('hidden');
         noChoiceAlert.classList.add('hidden');
-        let response = await fetch('/random');
-        let data = await response.json();
+        let response = await fetch('https://coin-wizard-two.vercel.app/random');
+        if (response.headers.get('content-type').includes('application/json')) {
+            let data = await response.json();
+            console.log(data);
+        } else {
+            console.error('Response is not JSON');
+        }        
         setTimeout(() =>{
             if(data.result === userChoice){
                 result.innerText = `Congratulations! The coin landed on ${data.result}!`;
